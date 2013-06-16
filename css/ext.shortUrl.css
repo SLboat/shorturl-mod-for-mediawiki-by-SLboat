@@ -1,0 +1,9 @@
+.title-shortlink {
+	font-size: small;
+	margin: 0;
+}
+
+/* 默认不显示好了 */
+.title-shortlink-container{
+	display: none;
+}
