@@ -31,7 +31,7 @@ $wgShortUrlTemplate = false;
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
-	'name' => 'ShortUrl',
+	'name' => 'ShortUrl SLboat Mod',
 	'version' => '1.1',
 	'author' => 'Yuvi Panda',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:ShortUrl',

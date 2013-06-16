@@ -87,6 +87,6 @@ class ShortUrlUtils {
 	 * @return Boolean: true if a short URL needs to be displayed
 	 */
 	public static function needsShortUrl( $title ) {
-		return $title->exists() && !$title->isMainPage() && $_GET['short'];
+		return $title->exists() && !$title->isMainPage() && isset($_GET['short']);
 	}
 }
